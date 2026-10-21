@@ -1,0 +1,114 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f4f5f7;
+  margin: 0;
+  color: #333;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+.insignia {
+  background: #2563eb;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.panel {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.fila-nombre {
+  font-weight: 600;
+  margin: 0 0 4px 0;
+}
+
+.fila-detalle {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-primario {
+  background: #2563eb;
+  color: white;
+}
+
+.btn-primario:hover {
+  background: #1d4ed8;
+}
+
+.btn-secundario {
+  background: #ef4444;
+  color: white;
+}
+
+.btn-secundario:hover {
+  background: #dc2626;
+}
+
+.btn-bloque {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 2px solid #eee;
+}
+
+.vacio {
+  color: #888;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .contenido {
+    grid-template-columns: 1fr;
+  }
+}
