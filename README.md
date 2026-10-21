@@ -17,3 +17,6 @@ Porque React y Zustand requieren inmutabilidad para detectar que el estado ha ca
 5. ¿Zustand es parte de React? Explica la diferencia entre una libreria propia de React y una del ecosistema.
 
 No, Zustand no viene integrado en React, sino que es una libreria externa creada por la comunidad. Las herramientas propias de React vienen de base con la libreria (como useState), mientras que las del ecosistema son soluciones independientes que se deben instalar por separado para ampliar las capacidades del proyecto
+
+
+<img src="./image.png" alt="Evidencia del proyecto" width="600" />
